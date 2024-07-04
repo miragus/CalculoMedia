@@ -1,0 +1,58 @@
+/* Reset de estilos para garantir consistência entre os navegadores */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo para o corpo do documento */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+/* Estilo para o cabeçalho principal */
+h1 {
+    color: #333;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+/* Estilo para subtítulos (h2) */
+h2 {
+    color: #555;
+    margin-top: 30px;
+}
+
+/* Estilo para parágrafos */
+p {
+    margin-bottom: 15px;
+}
+
+/* Estilo para listas */
+ul {
+    margin-bottom: 15px;
+}
+
+/* Estilo para itens de lista */
+li {
+    margin-bottom: 5px;
+}
+
+/* Estilo para texto em negrito */
+b {
+    color: #007bff; /* Cor azul como destaque */
+}
+
+/* Estilo para links */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

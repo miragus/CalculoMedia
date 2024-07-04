@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/main.css">
+    <title>Main page</title>
+</head>
+<body>
+
+    <section id="background-calculadora">
+        <h1>Calculadora de Notas Escolares</h1>
+
+        <figure>
+            <img src="../image/calculadora-icon.png" alt="icone de uma calculadora">
+        </figure>
+    
+        <form id="calculadora">
+    
+    
+            <label for="escola">Escola:</label>
+            <select name="escola" id="escola">
+                <option value="E. E. Profº Josino Macedo">Escola Estadual Profº Josino Macedo</option>
+            </select>
+            <br><br>
+    
+            <label for="aluno">Aluno:</label>
+            <input type="text" id="aluno" name="aluno">
+            <br><br>
+    
+            <label for="ano">Série:</label>
+            <select id="ano" name="ano">
+                <option value="6º">6º</option>
+                <option value="7º">7º</option>
+                <option value="8º">8º</option>
+                <option value="9º">9º</option>
+            </select>
+            <br><br>
+    
+            <label for="turma">Turma:</label>
+            <select id="turma" name="turma">
+                <option value="A">A</option>
+                <option value="B">B</option>
+                <option value="C">C</option>
+                <option value="D">D</option>
+            </select>
+            <br><br>
+    
+            <label for="materia">Matéria:</label>
+            <select id="materia" name="materia">
+                <option value="Português">Português</option>
+                <option value="Matemática">Matemática</option>
+                <option value="Ciências">Ciências</option>
+                <option value="História">História</option>
+                <option value="Geografia">Geografia</option>
+                <option value="Inglês">Inglês</option>
+            </select>
+            <br><br>
+    
+            <label for="num1">1º Bimestre:</label>
+            <input type="number" id="num1" name="num1" min="0" max="10">
+            <br><br>
+    
+            <label for="num2">2º Bimestre:</label>
+            <input type="number" id="num2" name="num2" min="0" max="10">
+            <br><br>
+    
+            <label for="num3">3º Bimestre:</label>
+            <input type="number" id="num3" name="num3" min="0" max="10">
+            <br><br>
+    
+            <label for="num4">4º Bimestre:</label>
+            <input type="number" id="num4" name="num4" min="0" max="10">
+            <br><br>
+    
+            <div id="botaoDiv">
+                <button type="button" class="botao" onclick="calcularMedia()">
+                    Calcule a média
+                </button>
+            </div>
+    
+            <p id="resultado"></p>
+    
+            <div id="resultado-final">
+                <p id="situacao"></p>
+            </div>
+        </form>
+    </section>
+    
+    <script src="../main.js"></script>
+    <script src="../js/mediaCalculo.js"></script>
+
+</body>
+</html>
