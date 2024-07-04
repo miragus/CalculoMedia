@@ -68,7 +68,7 @@ const template = [
         submenu: [
             {
                 label: 'Documentação',
-                click: () => shell.openExternal('')
+                click: () => shell.openExternal('https://drive.google.com/file/d/1J6YCwux98GIlWGU6I2EEXja6CPnAyMtY/view?usp=sharing')
             },
             {
                 type: 'separator'
